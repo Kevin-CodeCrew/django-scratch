@@ -1,0 +1,9 @@
+{% extends 'fav_picture/base.html' %}
+
+{% block content %}
+{% for pic in pix %}
+<p>
+    <a href="{% url 'view_fav' pic.pk %}">{{pic}}</a>
+</p>
+{% endfor %}
+{% endblock content %}
