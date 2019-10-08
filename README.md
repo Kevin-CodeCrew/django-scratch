@@ -1,0 +1,2 @@
+# django-scratch
+django-scratch
